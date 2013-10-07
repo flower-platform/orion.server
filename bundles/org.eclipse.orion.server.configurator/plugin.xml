@@ -309,13 +309,6 @@
                mime-type="application/x-web-app-manifest+json">
          </mime-mapping>
       </httpcontext>
-      <httpcontext
-            id="org.eclipse.orion.server.configurator.httpcontext.flower">
-         <resource-mapping
-               bundle="org.flowerplatform.orion.client"
-               path="/web/flower">
-         </resource-mapping>
-      </httpcontext>      
    </extension>
    <extension
          point="org.eclipse.equinox.http.registry.resources">
@@ -366,15 +359,11 @@
       <serviceSelector
             filter="(other.info=org.eclipse.orion)">
       </serviceSelector>
-      <resource
-            alias="/flower"
-            httpcontextId="org.eclipse.orion.server.configurator.httpcontext.flower">
-      </resource>
    </extension>
    <extension
          point="org.eclipse.equinox.preferences.preferences">
       <initializer
             class="org.eclipse.orion.server.configurator.configuration.OrionPreferenceInitializer">
       </initializer>
-   </extension>   
+   </extension>
 </plugin>
