@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="org.eclipse.orion" sequenceNumber="9">
+<?pde version="3.8"?><target name="org.eclipse.orion" sequenceNumber="15">
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
 <unit id="org.eclipse.jgit" version="3.0.0.201306101825-r"/>
@@ -490,6 +490,23 @@
 <unit id="org.eclipse.sdk.tests.feature.group" version="4.3.0.v20130606-0135"/>
 <unit id="org.eclipse.platform.ide" version="4.3.0.I20130605-2000"/>
 <repository location="http://download.eclipse.org/eclipse/updates/4.3"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.emf.edit.feature.group" version="2.9.0.v20130610-0406"/>
+<repository location="http://download.eclipse.org/modeling/emf/emf/updates/2.9milestones"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.emf.teneo.hibernate.feature.group" version="2.0.1.v201310012206"/>
+<unit id="org.eclipse.emf.teneo.hibernate.sdk.feature.group" version="2.0.1.v201310012206"/>
+<repository location="http://download.eclipse.org/modeling/emf/teneo/updates/2.0.0/interim/"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="org.apache.commons.logging.feature.group" version="1.1.1.201210222237"/>
+<unit id="org.apache.log4j.feature.group" version="1.2.16.201210222237"/>
+<unit id="javax.persistence.feature.group" version="2.0.1.201210222237"/>
+<unit id="org.dom4j.feature.group" version="1.6.1.201210222237"/>
+<unit id="org.hibernate.feature.group" version="4.1.1.201210222237"/>
+<repository location="http://www.elver.org/eclipse/2.0.0/update"/>
 </location>
 </locations>
 <targetJRE path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
